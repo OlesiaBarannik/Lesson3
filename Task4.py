@@ -1,6 +1,6 @@
 name = "olesia"
 
-c = input()
+c = input('What is your name?\n')
 
 if c == name:
     print("thank you")
