@@ -1,6 +1,5 @@
-s = "1234567890"
-if s.isdigit() and len(s) == 10:
+c = input("What is your number?\n")
+if int(c.isdigit()) and len(c) == 10:
     print("is correct")
 else:
     print("input number again")
-
